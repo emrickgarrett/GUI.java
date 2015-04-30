@@ -17,9 +17,9 @@
 </head>
 <body>
 
-<div class="gui-top-basic">
+<div class="gui gui-top-basic">
         <a href="#" class="pull-left">GUI Example</a>
-        <ul class="gui top-menu">
+        <ul class="top-menu">
             <li><a href="[%page]">Home</a></li>
             <li><div class="multi-layer"><a href="[%page]">About</a>
             <ul class="sub-menu">
@@ -32,7 +32,12 @@
         </ul>
 </div>
 
-<b><?id/></b>
+<br/>
+<div style="width:100%;">
+	<span style="margin:auto;"><?id/></span>
+</div>
+
+
 <script type="text/javascript">
     GUI(".gui-top-basic").createGui(
             {

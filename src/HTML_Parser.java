@@ -54,8 +54,8 @@ public class HTML_Parser {
 		
 		while(scan.hasNext()){
 			curString = scan.nextLine();
-			if(curString.contains("gui top-menu")){
-				int firstIndex = curString.indexOf("gui top-menu") + 12;
+			if(curString.contains("top-menu")){
+				int firstIndex = curString.indexOf("top-menu") + 9;
 				
 				template += curString.substring(0, firstIndex);
 				curString = curString.substring(firstIndex, curString.length());
